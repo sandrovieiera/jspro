@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #pricipal {
+            background-color: green;
+            padding: 100px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <title>Dom</title>
+</head>
+<body>
+    <div id="pricipal" onclick="clicar()" onmouseenter="passou()" onmouseout="saio()">
+        clique aqui
+    </div>
+
+    <script>
+        function clicar() {
+        pricipal.style.background = "black"
+        pricipal.style.color = "white"
+        pricipal.innerText = "clicou"
+        }
+        function passou() {
+            pricipal.style.background = "blue"
+            pricipal.style.color = "pink"
+            pricipal.innerText = "passou"
+
+        }
+        function saio() {
+            pricipal.style.background = "red"
+            pricipal.style.color = "black"
+            pricipal.innerText = "saiu"
+
+        }
+    </script>
+</body>
+</html>

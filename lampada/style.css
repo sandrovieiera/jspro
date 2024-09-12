@@ -1,0 +1,43 @@
+body {
+  background-color: blueviolet;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  background-color: rgba(0, 81, 255, 0.932);
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    width: 50vw;
+}
+
+#lampada {
+width: 200px;
+height: auto;
+}
+
+.ligar {
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.desliga {
+    background-color: red;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+

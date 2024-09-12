@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: rgb(12, 112, 242);
+            color: aliceblue;
+        }
+        
+    </style>
+    <title>Dom</title>
+  
+</head>
+<body id="prim">
+    <div>
+        <h1 class="prim">manipulação DOM</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt eaque consequatur sit labore laborum vitae perspiciatis aspernatur, corrupti non fugiat harum quos, at voluptatibus velit? Rerum nihil ducimus dolorum amet!</p>
+        <button>clique1</button>
+        <button>clique2</button>
+    </div>
+    <script>
+        /* window.document.write("manipulando o dom")
+        window.alert("oi") */
+        let x = window.document.getElementById("prim");
+        x.style.background = "black"
+        let y = window.document.getElementsByTagName("button")[0]
+        y.innerHTML = "sand"
+          let s = window.document.getElementsByTagName("button")[1]
+        s.innerHTML = "sibelle"
+    </script>
+</body>
+</html>
